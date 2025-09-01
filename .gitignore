@@ -1,0 +1,24 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosf
+*.sln.docstates
+
+# NuGet
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# Rider
+.idea/
+
+# Other common files to ignore
+*.log
+*.tmp
+*.bak

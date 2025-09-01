@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotifierService", "NotifierService\NotifierService.csproj", "{3A830FEF-E265-4C2F-8B1A-E406976C2F06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-UI", "01-UI", "{8A07D46C-664F-4166-B645-D7C8CC21BC89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{FB1C35EF-F58C-45F3-8FF1-849A626BADFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{682D6A32-7B52-463C-9FF4-BD5BBACD0A82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppService", "WhatsAppService\WhatsAppService.csproj", "{34AE7217-0C4D-4A8B-9E80-CBF63741A833}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A830FEF-E265-4C2F-8B1A-E406976C2F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A830FEF-E265-4C2F-8B1A-E406976C2F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A830FEF-E265-4C2F-8B1A-E406976C2F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A830FEF-E265-4C2F-8B1A-E406976C2F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34AE7217-0C4D-4A8B-9E80-CBF63741A833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34AE7217-0C4D-4A8B-9E80-CBF63741A833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34AE7217-0C4D-4A8B-9E80-CBF63741A833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34AE7217-0C4D-4A8B-9E80-CBF63741A833}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A830FEF-E265-4C2F-8B1A-E406976C2F06} = {FB1C35EF-F58C-45F3-8FF1-849A626BADFB}
+		{FB1C35EF-F58C-45F3-8FF1-849A626BADFB} = {8A07D46C-664F-4166-B645-D7C8CC21BC89}
+		{682D6A32-7B52-463C-9FF4-BD5BBACD0A82} = {8A07D46C-664F-4166-B645-D7C8CC21BC89}
+		{34AE7217-0C4D-4A8B-9E80-CBF63741A833} = {682D6A32-7B52-463C-9FF4-BD5BBACD0A82}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D5D9E7F-46DC-4714-831B-686158EA3CDA}
+	EndGlobalSection
+EndGlobal
